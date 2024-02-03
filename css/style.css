@@ -9,3 +9,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(249, 196, 118);
 }
+
+.lens-list{
+    background-color: rgb(152, 121, 218);
+    color: rgb(0, 75, 0);
+    border-radius: 5px;
+}
+
+i {
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+h3{
+    margin-left: 30px;
+}
