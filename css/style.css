@@ -10,10 +10,13 @@ body {
     background-color: rgb(249, 196, 118);
 }
 
+#app{
+    text-align: center;
+}
+
 .lens-list{
     background-color: rgb(152, 121, 218);
-    color: rgb(0, 75, 0);
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 i {
@@ -22,8 +25,4 @@ i {
 
 ul{
     list-style: none;
-}
-
-h3{
-    margin-left: 30px;
 }

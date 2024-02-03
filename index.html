@@ -34,7 +34,7 @@
     <div id="app">
       <div class="container mt-5">
         <h1 class mb-4 fs-2>{{title}}</h1>
-        <label for="lens-task">Scrivi qui sotto il prodotto che desideri</label>
+        <h4 for="lens-task">Scrivi qui sotto il prodotto che desideri</h4>
         <input
           v-model.trim="newItem.name"
           type="text "
@@ -44,10 +44,11 @@
         <button @click="printNewItem()" class="btn btn-success my-3">
           <i class="fa-solid fa-bag-shopping"></i> Aggiungi al carrello
         </button>
+
         <div class="row">
 
           <!-- Da acquistare -->
-          <div class="col-3">
+          <div class="col-6">
             <h3 class="fw-bold mt-3">Da acquistare:</h3>
             <ul class="">
               <li
@@ -67,7 +68,7 @@
           </div>
 
           <!-- Acquistati -->
-          <div class="col-3">
+          <div class="col-6">
             <h3 class="fw-bold mt-3">Acquistato:</h3>
             <ul class="">
               <li
